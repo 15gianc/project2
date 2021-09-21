@@ -1,0 +1,252 @@
+body{
+    margin: 60px 200px 0 110px;
+    font-family: 'Patrick Hand', cursive;
+    
+}
+
+.logo{
+   padding: 5px 120px;
+}
+
+.menu{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    top: 5cm;
+    left: 11cm;
+   
+    
+    
+}
+
+.barra{
+    padding: 0px 50px 0px 50px;
+}
+
+.barra a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;  /*Titulos*/
+    font-size: 19px;
+    color: black;
+    padding: 6px 16px;
+}
+
+.barra a:hover{
+    color: whitesmoke;
+    background-color: violet;
+}
+
+.parallax{
+    background-image: url(../imagenes/parallax.jpeg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.tituloparallax h2{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-left: 90px;
+    -webkit-text-stroke: 0.8px black;
+
+}
+
+.parrafoparallax{
+    border: 2px solid whitesmoke;
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    height: 35px;
+    width: 329px;
+    
+}
+
+.parrafoparallax a:hover{
+    background-color: teal;
+    opacity: 0.7;
+}
+
+.parrafoparallax a {
+    font-size: 23px;
+    color: whitesmoke;
+    font-weight: 100;
+    padding: 3px 110px 4px 112px;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.information{
+    display: inline-flex;
+}
+
+.information p{
+    color: black;
+    margin: 0;
+    max-width: 52%;
+    align-self: center;
+    padding-left: 50px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.titulobio{
+    font-size: 33px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-flex;
+    padding: 20px 0px 0px 10px;
+}
+
+.titulobio2{
+    font-size: 21px;
+    font-weight: 400;
+    color: black;
+    display: inline-flex;
+}
+
+.information img{
+    max-width: 48%;
+    height: 500px;
+    padding: 20px 50px;
+}
+
+
+.contentmusic{
+    letter-spacing: 8px;
+    line-height: 2px;
+}
+
+.contentmusic h2{
+    font-size: 1.5cm;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 2.5cm;
+    padding-bottom: 2.5cm;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.container .card{
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    /*Oculta el contenido sobrante*/
+    overflow: hidden;
+    margin: 0 3px;
+    text-align: center;
+    /* hacer una transicion- animacion css */
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    /* Hace que mi elemento se translade en Y -15px hacia arriba */
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 200px;
+    height: 170px;
+
+}
+
+.container .card h4{
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: 15px;
+
+}
+
+.container .card p{
+    /* root em basado en la raiz- 16px */
+    padding: 8px;
+    font-size: 10px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.container .card a{
+    font-weight: 400;
+    text-decoration: none;
+    color: teal;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* secton-videos */
+
+.videos{
+    margin: 50px 0px 0px 0px;
+
+}
+
+.imgsection{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.imgsection img{
+    width: auto;
+    height: 100px;
+}
+
+.iframeprincipal{
+    display: flex;
+    justify-content: center;
+
+}
+
+.iframes{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.iframes iframe{
+    margin-top: 40px;
+}
+
+/* footer */
+
+.final{
+    background-color: #000000ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin-top: 100px;
+}
+
+.final p{
+    text-align: center;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
